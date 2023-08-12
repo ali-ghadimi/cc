@@ -62,6 +62,31 @@ $ chmod 400 *
 
 
 
+#### create public and private keys
+
+1- in terminal: (mac)
+
+```
+ssh-keygen -C "sdaltd" -f /Users/alighadimi/WD/sda_projects/keys/gcp-key
+
+```
+
+2- in vscode
+
+```
+ssh -i /Users/alighadimi/WD/sda_projects/keys/gcp-key sdaltd@34.171.56.73
+
+```
+
+easy to connect remember to update the ip 
+
+
+
+
+
+
+
+
 #### Lab 1.1 Part B: Deploying a Cloud application
 
 The following tutorial describes a list of commands to interact with the Linux system (Ubuntu 18.04) for installing our first Cloud application, the [Apache webserver](https://httpd.apache.org).
